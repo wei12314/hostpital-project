@@ -14,6 +14,7 @@
 </template>
 
 <script>
+import { defineComponent, ref, reactive, toRefs, onMounted } from "vue";
 import NavBar from "./components/NavBar.vue";
 import BreadCrumb from "./components/BreadCrumb.vue";
 export default {
@@ -21,6 +22,7 @@ export default {
     NavBar,
     BreadCrumb,
   },
+  setup() {},
 };
 </script>
 
@@ -29,17 +31,14 @@ export default {
   margin-top: 20px;
 }
 .side-bar {
-  border: 1px solid gray;
   margin-left: -8px;
   margin-top: -8px;
   height: 100vh;
-  background-color: #e9e9eb;
+  background-color: #f4f4f5;
 }
 .main-content {
-  border: 1px solid gray;
   width: 100vh;
   height: 100vh;
-  margin-left: 2px;
   margin-top: -8px;
 }
 

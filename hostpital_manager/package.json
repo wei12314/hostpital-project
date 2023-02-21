@@ -12,6 +12,7 @@
     "@popperjs/core": "^2.11.6",
     "bootstrap": "^5.2.3",
     "core-js": "^3.6.5",
+    "echarts": "^5.4.1",
     "element-plus": "^2.2.30",
     "jquery": "^3.6.3",
     "vue": "^3.0.0",
@@ -42,8 +43,7 @@
     ],
     "parserOptions": {
       "parser": "babel-eslint"
-    },
-    "rules": {}
+    }
   },
   "browserslist": [
     "> 1%",
